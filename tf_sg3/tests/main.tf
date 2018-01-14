@@ -4,7 +4,7 @@ provider aws {
 
 module "sg" {
   source = "../"
-  vpc_id = "vpc-14595772"
+  vpc_id =  "vpc-14595772"
 }
 
 output "sg" {
