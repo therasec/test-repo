@@ -12,7 +12,7 @@ resource "aws_security_group" "sg" {
 
     # cidr_blocks = ["172.31.0.0/16"]
     
-    cidr_blocks = ["0.0.0.0/0"]
+    cidr_blocks_typo = ["0.0.0.0/0"]
   }
 }
 
