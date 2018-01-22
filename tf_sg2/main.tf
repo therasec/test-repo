@@ -2,7 +2,7 @@ variable "vpc_id" {}
 
 resource "aws_security_group" "sg" {
   name        = "ssh"
-  description = "SSH access"
+  description = "SSH access testing"
   vpc_id      = "${var.vpc_id}"
 
   ingress {
